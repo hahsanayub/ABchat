@@ -1,0 +1,4 @@
+#Fri Jun 18 17:29:30 PKT 2021
+base.0=D\:\\Projects\\Android Studio\\ABchat\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

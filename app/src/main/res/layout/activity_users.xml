@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearUsersLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsersActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/users_appBar"
+        layout="@layout/app_bar_layout"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignTop="@id/users_list"
+        >
+
+        <EditText
+            android:id="@+id/searchText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:hint="Search" />
+        <Button
+            android:id="@+id/searchUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/users_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/users_appBar">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</LinearLayout>
