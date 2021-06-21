@@ -2,7 +2,7 @@
 
 ## A whatsapp like Android chat application using Java, Android Studio & Firebase.
 
-### Screenshots:-
+<!-- ### Screenshots:- -->
 <!-- <p float="left">
   
   <img src="https://user-images.githubusercontent.com/31586157/42641181-98f27b54-8611-11e8-8a46-f73ef542b499.png" width="240" text-color="#000000" height="400" hspace="20" /> 
